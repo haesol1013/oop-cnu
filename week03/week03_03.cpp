@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void increment(int x) {
+void increment(int& x) {
     ++x;
 }
 
